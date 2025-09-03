@@ -1,0 +1,24 @@
+@"
+# Maven build
+target/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+*.env
+application-local.properties
+
+# Archives / big binaries
+*.zip
+*.tar.gz
+*.7z
+*.jar
+"@ | Out-File -Encoding utf8 -FilePath .gitignore
