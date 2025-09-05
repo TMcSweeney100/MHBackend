@@ -1,0 +1,4 @@
+cd C:\Programing\newJavaMasters\app\server
+git add Dockerfile .dockerignore
+git commit -m "Add Dockerfile for Render deployment"
+git push
